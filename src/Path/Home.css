@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+.h3-centre{
+    text-align: center;
+}
+.floating-fab{
+    margin: 0px;
+    top: auto;
+    right: 20px;
+    bottom: 20px;
+    left: auto;
+    position: fixed;
+}
+
+.heading{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5vh;
+    padding-top: 10vh    ;
+}
+.heading-text{
+    margin-top: 6vh;
+}
+.u-tube-list{
+    list-style-type:none;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+
+   
+}
+.u-tube{
+    padding-bottom: 5vh;
+}
+
+.project-div{
+    padding-top: 5vh;    
+    padding-bottom: 5vh;
+
+}
+.project-div h3{
+    padding-bottom: 5vh;
+    
+}
+.project-list{
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 8vh;
+    
+    
+}
+
+.project-paper{
+    margin-left:2vh;
+    margin-right: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width:25%;
+  
+}
+
+
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    .project-paper{
+        width:100%;
+    }.u-tube{
+        width:80vw;
+        height: 50vh;
+        
+    }
+    .quiz-option{
+        width: 80vw
+    }
+    .quiz-li{
+        width: 80vw
+    
+    }
+  
+   
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .project-paper{
+        width:40%;
+    }.u-tube{
+        width:60vw;
+        height: 45vh;
+        
+    }
+    .quiz-option{
+        width: 400px
+    }
+    .quiz-li{
+        width: 400px
+    
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .project-paper{
+        width:40%;
+    }.u-tube{
+        width:45vw;
+        height: 45vh;
+        
+    }
+    .quiz-option{
+        width: 420px
+    }
+    .quiz-li{
+        width: 420px
+    
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .project-paper{
+        width:25%;
+    }.u-tube{
+        width:50vw;
+        height: 50vh;
+        
+    }
+    .quiz-option{
+        width: 450px
+    }
+    .quiz-li{
+        width: 450px
+    
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .project-paper{
+        width:25%;
+    }.u-tube{
+        width:40vw;
+        height: 50vh;
+        
+    }
+    .quiz-option{
+        width: 450px
+    }
+    .quiz-li{
+        width: 450px
+    
+    }
+} 
+
+/* quiz css */
+.quiz-option{
+  
+    margin-top: 2vh;
+}
+.quiz-option span {
+    justify-content: normal;
+}
+.quiz-li{
+    margin-top: 4vh;
+
+
+
+
+}
+.quiz-ol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6vh;
+
+}
+.alert-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    align-content: space-between;
+    
+}
+.MuiAlert-message{
+    width:100%;
+}
+.result-div{
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.submit-button{
+    margin-bottom: 4vh;
+}

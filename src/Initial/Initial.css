@@ -1,0 +1,70 @@
+
+.CircularProgressbar {
+    width:75%;
+    vertical-align: middle;
+    
+}
+.main-it{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-list-heading{
+    margin-top: 2vh;
+}
+.main-list-button{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+.project-div{
+    margin-top: 7vh;
+    padding-top: 2vh;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.h2-centre{
+    text-align: center;
+    margin-bottom: 2vh;
+}
+.main-d{
+    background-color:#ffffff;
+   padding-top: 1px;
+}
+.footer-div{
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    display:flex;
+    flex-direction: row;
+   
+    justify-content: space-around;
+}
+.footer-links{
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-item{
+    text-align: center;
+}
+.links{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width:60%
+}
+a{
+    text-decoration: none;
+}
+.p-centre{
+    align-self: center;
+    max-width: 600px;
+}
