@@ -269,10 +269,10 @@ useEffect(()=>{
                 <div className="footer-div">
                     <div className="links"> 
                         <p>
-                            AsAk is a group enthusiasts working on their dream of being a Software Devloper. We also have other Products like MeanMov Android App that gives meaning of all difficult words in a movie in single click. Do check it out at <a>MeanMov</a> 
+                            AsPk is a group enthusiasts working on their dream of being a Software Devloper. We also have other Products like Voice-Assistant web applicaion . Do check it out at <a href = "https://voice10.herokuapp.com">Voice-Assistant</a> 
                         </p>
                         <p class="copyright-text">
-                            Copyright &copy; 2020 All Rights Reserved 
+                            Copyright &copy; 2021 All Rights Reserved 
                         </p>
                     </div>
                     <div >     

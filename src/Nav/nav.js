@@ -40,7 +40,7 @@ function Nav() {
           <Typography variant="h6" className={classes.title}>
             <Link to='/'>Techplan</Link> 
           </Typography>
-         <a href="mailto:asakcontact@gmail.com"> <Button color="inherit">Contact Us</Button></a>
+         <a href="mailto:kumarpankaj2999@gmail.com"> <Button color="inherit">Contact Us</Button></a>
           
         </Toolbar>
       </AppBar>
